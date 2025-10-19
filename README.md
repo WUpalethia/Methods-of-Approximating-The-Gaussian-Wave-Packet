@@ -1,6 +1,9 @@
-# Methods-of-Approximating-The-Gaussian-Wave-Packet
+# Methods of Approximating The Gaussian Wave Packet
 This study investigates numerical methods for approximating the oscillatory damped function
 \[
 f(x) = e^{-\frac{1}{20}x^2} \cos(5x)
 \]
 over the interval \([-10, 10]\). Such functions, which combine Gaussian decay with high-frequency oscillations, are ubiquitous in quantum mechanics (as wave packets), signal processing (as modulated waveforms), and structural dynamics (as damped vibrations). We conduct a systematic evaluation of interpolation techniques (including monomial, Lagrange, Newton, Hermite, and cubic spline methods) and least-squares approximation approaches (both discrete and continuous formulations). Our analysis employs three quantitative error metrics—total absolute error, maximum error, and mean squared error—to compare the performance of each method under varying node distributions (equidistant vs. Chebyshev). The results demonstrate that Chebyshev-based methods exhibit spectral convergence, while Hermite interpolation provides superior accuracy for derivative-matching applications. These findings offer practical guidelines for selecting approximation strategies in computational physics and engineering applications involving oscillatory-decay functions.
+
+You can find more detailed report in the file: Methods of Approximating The Gaussian Wave Packet.pdf
+And the python code: Methods-of-Approximating-The-Gaussian-Wave-Packet.py
